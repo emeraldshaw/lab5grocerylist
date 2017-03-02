@@ -12,8 +12,8 @@ $(document).ready(function(){
       var link = "https://www.reddit.com" + redditArray[i].data.permalink;
 
       $('section').append('<div class = "post"><h2>' + title + '</h2>'
-      + author + '<br>' + score +
-      '<a href="' + link + '"/><img src="' + thumbnail + '"/></a></div>');
+      + 'author: ' + author + '<br>' + 'score: ' + score +
+      '<a href="' + link + '"><img src="' + thumbnail + '"/></a></div>');
 
     }
 

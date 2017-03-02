@@ -1,7 +1,51 @@
+body {
+  font-family: century gothic;
+  font-size: 12px;
+  color: #777777;
+  background-image: url("bg.jpg");
+  background-repeat: repeat;
+}
+
 .post {
-  border: 1px dashed #777777;
+  border: 1px solid #f44242;
+  background-color: #ffffff;
   padding: 5px;
-  width: 500px;
+  width: 637px;
+  height: 200px;
   padding: 3px;
   margin: auto;
+  margin-top: 5px;
+}
+
+.post:hover {
+  border: 2px solid #380000;
+  zoom: 110%;
+  background-color: #380000;
+  color: white;
+
+}
+
+img {
+  float: right;
+  position: relative;
+  top: -30px;
+  margin: 5px;
+  padding: 3px;
+  border: 1px dotted #cc5555;
+  background-color: #ffffff;
+
+}
+
+h1 {
+  font-size: 27px;
+  text-align: center;
+  color: #f44242;
+  text-shadow: 0 0 35px #770404;
+}
+
+h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #cc5555;
+
 }
