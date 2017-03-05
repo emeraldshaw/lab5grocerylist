@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drunk In Love Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body ng-app>
+<section>
+  <div id="input">
+    <div id="innerinput">
+    <div class="inputs">ing verb: <input type="text" ng-model="ingverb"></div>
+    <div class="inputs">same ing verb: <input type="text" ng-model="ingverb"></div>
+    <div class="inputs">beverage: <input type="text" ng-model="beverage"></div>
+    <div class="inputs">another ing verb: <input type="text" ng-model="otheringverb"></div>
+    <div class="inputs">same other ing verb: <input type="text" ng-model="otheringverb"></div>
+    <div class="inputs">body part: <input type="text" ng-model="bodypart"></div>
+    <div class="inputs">noun (thing): <input type="text" ng-model="noun"></div>
+    <div class="inputs">same noun: <input type="text" ng-model="noun"></div>
+    <div class="inputs">animal: <input type="text" ng-model="animal"></div>
+    <div class="inputs">plural noun: <input type="text" ng-model="pluralnoun"></div>
+    <div class="inputs">adjective: <input type="text" ng-model="adj1"></div>
+    <div class="inputs">adjective: <input type="text" ng-model="adj2"></div>
+    <div class="inputs">adjective: <input type="text" ng-model="adj3"></div>
+    <div class="inputs">famous person: <input type="text" ng-model="celeb"></div>
+    <div class="inputs">another body part: <input type="text" ng-model="bodypart2"></div>
+    <div class="inputs">adjective: <input type="text" ng-model="adj4"></div>
+    <div class="inputs">noun (place): <input type="text" ng-model="place"></div>
+    <div class="inputs">expletive: <input type="text" ng-model="expletive"></div>
+    <div class="inputs">emotion: <input type="text" ng-model="emotion"></div>
+  </div>
+  </div>
+
+  <div id="output">
+    <div id="inneroutput">
+    <p>
+      I been {{ingverb}}, I been {{ingverb}},<br>
+      I get filthy when that {{beverage}} get into me,<br>
+      I been {{otheringverb}}, I been {{otheringverb}},<br>
+      Why can't I keep my {{bodypart}} off you,<br>
+      Baby I want you, na naaaa<br>
+      Why can't I keep my {{bodypart}} off you,<br>
+      Baby I want you, na naaaa<br><br>
+      {{noun}} on ice, {{noun}} on ice,<br>
+      Feelin' like an {{animal}} with these cameras all in my grill, <br>
+      Flashing {{pluralnoun}}, flashing {{pluralnoun}},<br>
+      You got me {{adj1}}, {{adj2}}, {{adj3}}, baby I want {{celeb}}, na naaaa,<br>
+      Can't keep your eyes off my {{bodypart2}},<br>
+      Daddy I want you, na naaaa,<br>
+      {{adj4}} in loovvvveeee,<br>
+      I want you<br><br>
+      We woke up in the {{place}} sayin' "how the hell did this {{expletive}} happen?",<br>
+      Oh baby,<br>
+      {{emotion}} in loooooooovvvvvvveeeeeeee, we be all night<br>
+    </p>
+  </div>
+  </div>
+</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="jquery.backstretch.min.js"></script>
+    <script>
+    $.backstretch([
+      "images/1.jpg",
+      "images/2.jpg",
+      "images/3.png",
+      "images/4.png",
+      "images/5.jpg",
+      "images/6.jpg"
+    ], {duration: 3000, fade: 750});
+    </script>
+  </body>
+</html>
